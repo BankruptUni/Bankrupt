@@ -7,10 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.bankruptuni.databinding.FragmentNotificationsBinding
 import com.example.bankruptuni.databinding.FragmentStationBinding
 
 class StationFragment : Fragment() {
-    private var _binding : FragmentStationBinding? = null;
+    private var _binding : FragmentStationBinding? = null
 
     /*this property is only valid between
     onCreateView and onDestroyView.*/
@@ -19,10 +20,12 @@ class StationFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater,
                               container: ViewGroup?,
                               savedInstanceState: Bundle?) : View {
+        val stationViewModel =
+            ViewModelProvider(this).get(StationViewModel::class.java)
 
-        val stationViewModel = ViewModelProvider(this)
-            .get(StationViewModel::class.java)
+        _binding = FragmentStationBinding.inflate(inflater, container, false)
         val root:View = binding.root
+
         val textView: TextView = binding.textStation
         stationViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it

@@ -22,9 +22,10 @@
         android:name="com.example.bankruptuni.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
     <fragment
         android:id="@+id/navigation_station"
         android:name="com.example.bankruptuni.ui.station.StationFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:label="@string/title_station"
+        tools:layout="@layout/fragment_station" />
 </navigation>
