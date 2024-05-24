@@ -39,7 +39,7 @@ android {
 }
 
 dependencies {
-    implementation("com.google.android.libraries.maps:maps:3.1.0-beta")
+    //implementation("com.google.android.libraries.maps:maps:3.1.0-beta")
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.12.0")

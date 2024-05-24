@@ -27,5 +27,5 @@
         android:id="@+id/navigation_station"
         android:name="com.example.bankruptuni.ui.station.StationsFragment"
         android:label="@string/title_station"
-        tools:layout="@layout/fragment_station" />
+        tools:layout="@layout/fragment_stations" />
 </navigation>
