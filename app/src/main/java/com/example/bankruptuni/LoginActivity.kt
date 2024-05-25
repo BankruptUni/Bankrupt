@@ -21,7 +21,7 @@ class LoginActivity: AppCompatActivity() {
             val usrPasswd = _binding.editTextNumberPassword.text.toString()
 
             if(usrLogin == "bankrupt" && usrPasswd == "teste" ) {
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this@LoginActivity, MainActivity::class.java)
                 startActivity(intent)
             }
         }
