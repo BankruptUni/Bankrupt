@@ -6,4 +6,6 @@
     <string name="title_station">Station</string>
     <string name="title_stations">Stations</string>
     <string name="title_login">Login</string>
+    <string name="field_login">Login</string>
+    <string name="field_password">senha</string>
 </resources>
