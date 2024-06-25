@@ -7,6 +7,8 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.bankruptuni.data.Usuario
+
 class MainActivity : AppCompatActivity() {
 
     //private lateinit var binding: ActivityMainBinding
