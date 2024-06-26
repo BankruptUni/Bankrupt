@@ -22,7 +22,6 @@ class ApiProtocols<T> {
         /*val x: KeyStore = KeyStore.getInstance(KeyStore.getDefaultType())
         x.load(null,null)
         val certificate = Certificate()*/
-        NukeSSLCerts().nuke()
 
         var retorno: GetRetornoObj<T>? = null
         val queue = Volley.newRequestQueue(context)

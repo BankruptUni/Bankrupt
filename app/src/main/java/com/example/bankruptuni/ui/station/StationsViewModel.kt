@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 
 class StationsViewModel : ViewModel() {
     private val _text = MutableLiveData<String>().apply{
-        value = "Select the station you want to manage."
+        value = "Selecione a estação que deseja gerenciar"
     }
     val text: LiveData<String> = _text
 }
